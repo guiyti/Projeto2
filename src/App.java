@@ -8,13 +8,13 @@ public class App {
         Scanner input = new Scanner(System.in);
         
         // bloco gera valor aleatório em uma faixa
-        // int maxRand = 45;
-        // int minRand = 40;
-        // double faixa = Math.random()*(maxRand-minRand);
-        // double rand = Math.round(faixa) + minRand;
+        int maxRand = 46;
+        int minRand = 30;
+        double faixa = Math.random()*(maxRand-minRand);
+        double rand = Math.round(faixa) + minRand;
         
-        // int codigoCorreto = (int) rand;
-        int codigoCorreto = 5431;
+        int codigoCorreto = (int) rand;
+        // int codigoCorreto = 5431;
         
         // declaração de variáveis
         String entrada;
