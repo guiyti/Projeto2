@@ -46,7 +46,7 @@ public class App {
                 System.out.println("Você precisou de "+ tentativas + " tentativas");
 
                 if(tentativas == 1){
-                    System.out.println("CARALHOOO");
+                    System.out.println("PUXA VIDA");
                 }
 
             } else {
